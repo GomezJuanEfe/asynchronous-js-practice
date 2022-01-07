@@ -1,4 +1,4 @@
-// SetTimeout 1
+// 1. SetTimeout
 
 const message = () => {
   console.log('Hola mundo');
@@ -8,13 +8,13 @@ console.log('Inicia el código');
 
 setTimeout(message, 2000);
 
-// setTimeout 2
+// 2. SetTimeout
 
 setTimeout(() => {
   console.log('Hola mundo, setTimeout 2');
 }, 2000)
 
-// callbacks 2
+// 3. Callbacks aplicados
 
 const sum = (a,b) => {
   result = a + b;

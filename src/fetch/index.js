@@ -6,6 +6,8 @@ const API = 'https://rickandmortyapi.com/api/character/';
 
 console.log(fetch());
 
+// implementación de fetch con promesas
+
 fetch(API)
   .then((response) => {
     return response.json()
@@ -22,3 +24,6 @@ fetch(API)
     console.log(data.dimension)
   })
   
+
+// Implementación con Async - Await
+

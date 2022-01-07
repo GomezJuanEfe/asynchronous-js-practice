@@ -1,23 +1,4 @@
-// Entendiendo la sentencia try, catch, finally
-
-try {
-  console.log ('Start of try runs')
-
-  // next line is an error
-  unicycle;
-
-  console.log ('End of try runs -- never reached')
-} catch(err) {
-  console.log('Error has ocurred: ' + err.stack )
-  // could different properties like err.message, err.name, or just err
-} finally {
-  console.log('This is always run')
-}
-
-console.log ('...Then the exection continues')
-
-
-// Async y await
+// Async y await forma simple
 
 let myPromise = () => {
   return new Promise ((resolve, reject) => {
@@ -35,9 +16,28 @@ const doSomething = async () => {
   console.log('Async function fin');
 }
 
-// console.log('Before');
-// doSomething();
-// console.log('After');
+console.log('Before');
+doSomething();
+console.log('After');
+
+
+// Entendiendo la sentencia try, catch, finally
+
+try {
+  console.log ('Start of try runs')
+
+  // next line is an error
+  unicycle;
+
+  console.log ('End of try runs -- never reached')
+} catch(err) {
+  console.log('Error has ocurred: ' + err.stack )
+  // could different properties like err.message, err.name, or just err
+} finally {
+  console.log('This is always run')
+}
+
+console.log ('...Then the exection continues')
 
 
 // La misma función implementando Try - Catch

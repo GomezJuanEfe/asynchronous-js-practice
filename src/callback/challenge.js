@@ -7,7 +7,7 @@
 
 3. Luego voy a codificar la apertura por medio del método open.
 
-4. Vamos a generar o excuchar lo que va a generar esa apertura con xhttp.onreadystatechange... Si esta cambio suscede entonces se va a ejecutar una función.
+4. Vamos a generar o excuchar lo que va a generar esa apertura con xhttp.onreadystatechange... Si este cambio suscede entonces se va a ejecutar una función.
 
 5. Una vez en esta función voy a tener un espacio para hacer una validación para poder ejecutar mi callback. Básicamente es si el estado en el cual se encuentra es satisfactorio.
 
